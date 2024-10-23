@@ -12,3 +12,10 @@ for i in range(1, 31):
 for i in arr:
     print(arr, end=" ")
 
+def fun():
+    print("Hello World!")
+def add(a, b):
+    return a+b
+print(add(7.9,8))
+fun()
+print(add(5,8))
