@@ -1,5 +1,3 @@
-from xml.etree.ElementTree import indent
-
 dic = {"Name": "Aftab", "Age": 20, "Course": "Cse-Ds"}
 print(dic)
 

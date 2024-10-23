@@ -25,3 +25,8 @@ print(c.isdigit())
 # isspace() : check if space is present or not
 print(e.isspace())
 
+# join() : join two word
+st = "abc"
+st2 = st.join("123")
+print(st2, " ")
+
