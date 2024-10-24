@@ -17,3 +17,8 @@ print(z)
 
 a = abs(-4)
 print(a)
+
+# Area Of Cycle
+rad = float(input("Enter Radius : "))
+area = math.pi * rad **2
+print(area)

@@ -1,8 +1,8 @@
-import datetime
-x = datetime.datetime.now()
+import datetime as dt
+x = dt.datetime.now()
 print(x)
 
-y = datetime.datetime.date(x)
+y = dt.datetime.date(x)
 print(y)
 
 # Print Day

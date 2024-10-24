@@ -18,3 +18,7 @@ print(np.insert(br, 2, [55, 66, 77], axis=0))
 # Delete The Array
 print(br)
 print(np.delete(br, 0, axis = 1))
+
+ls = [1,2,3,4,5,6,7]
+print(np.var(ls))
+print(np.std(ls))
