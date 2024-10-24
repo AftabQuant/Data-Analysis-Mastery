@@ -5,7 +5,7 @@ print(type(my_data))
 
 # Convert dictionary to JSON string
 data = json.dumps(my_data)
-# json String Format
+# json is String Format
 print(data)
 print(type(data))
 
@@ -15,6 +15,6 @@ print(type(f))
 print(f["Name"])
 
 # Read From Existing json File
-with open("Details.json", "r") as file:
+with open("Details/Details.json", "r") as file:
     read_data = json.load(file)
 print(read_data)

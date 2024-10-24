@@ -79,3 +79,52 @@ from pydoc import apropos
 # for i in st:
 #     count +=1
 # print(count)
+
+# Factorial Num
+# def fac(n):
+#     if n==1: return 1
+#     return n * fac(n-1)
+# num = int(input("Enter Number : "))
+# print(fac(5))
+
+# Prime Number
+# def prime(n):
+#     for i in range(2, n+1):
+#         if n%i == 0:
+#             print("Not Prime")
+#             break
+#         else:
+#             print("Prime Num")
+#             break
+# prime(7)
+
+# Fibonacci Series
+# def fibo2(n):
+#     if n<2: return n
+#     return fibo2(n-1) + fibo2(n-2)
+# def fibo(n):
+#     a = 0
+#     b = 1
+#     c = 0
+#     for i in range(0, n+1):
+#         print(a, end=" ")
+#         c = a+b
+#         a = b
+#         b = c
+# fibo(10)
+# print()
+# print(fibo2(6))
+
+# GCD and LCM
+def gcd(m,n):
+    mn = min(m, n)
+    for i in range(mn, 0, -1):
+        if n % i == 0 and m % i == 0:
+            return i
+def lcm(m,n):
+    return (m*n)/gcd(m,n)
+
+n = int(input("Enter Number : "))
+m = int(input("Enter Number : "))
+print(gcd(n, m))
+print(lcm(n,m))
